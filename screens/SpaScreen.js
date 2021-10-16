@@ -1,14 +1,12 @@
 import React from 'react'
 import { View, Text, StyleSheet, Button } from 'react-native'
+import LottieView from 'lottie-react-native'
 
 const SpaScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <Text>This is Spa Screen</Text>
-      <Button
-        title='Click Me'
-        onPress={()=> alert('clicked')}
-      />
+      <LottieView source={require('../assets/lottie.json')} autoPlay loop />
+      
     </View>
   )
 }

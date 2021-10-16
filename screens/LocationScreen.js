@@ -1,10 +1,11 @@
 import React from 'react'
 import { View, Text, StyleSheet, Button } from 'react-native'
+import LottieView from 'lottie-react-native'
 
 const LocationScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <Text>Това е главната</Text>
+      <LottieView source={require('../assets/lottie-3.json')} autoPlay loop />
       <Button
         title='Click Me'
         onPress={()=> alert('clicked')}

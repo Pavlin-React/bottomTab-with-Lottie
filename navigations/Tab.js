@@ -67,7 +67,7 @@ const Tabs = () => {
               />
               <Text
               style={{fontSize: 12, color: focused ? '#e32f45' : '#748c94'}}
-              >Магазин</Text>
+              >Store</Text>
             </View>
           )
         }}
@@ -87,7 +87,7 @@ const Tabs = () => {
               <Text
                 style={{fontSize: 12, color: focused ? '#e32f45' : '#748c94'}}
               >
-                Услуги
+                Services
               </Text>
             </View>
           )
@@ -125,7 +125,7 @@ const Tabs = () => {
               <Text
                 style={{fontSize: 12, color: focused ? '#e32f45' : '#748c94'}}
               >
-                Цени
+                Prices
               </Text>
             </View>
           )
@@ -146,7 +146,7 @@ const Tabs = () => {
               <Text
                 style={{fontSize: 12, color: focused ? '#e32f45' : '#748c94'}}
               >
-                Контакти
+                Contacts
               </Text>
             </View>
           )
